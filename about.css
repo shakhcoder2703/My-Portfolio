@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+}
+
+/* .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+
+} */
+
+.header {
+    background-color: #c44444;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(246, 51, 51, 0.1);
+    position: fixed;
+    z-index: 1000;
+}
+
+.header_nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    padding: 20px;
+    border-bottom: 2px solid #00b300;
+    background-color: #000000;         
+} 
+
+.header_nav_logo img {
+    width: 200px;
+    height: auto;
+}
+
+.header_nav_links {
+    display: flex;
+    gap: 20px;
+    padding-right: 70px;
+}
+
+.header_nav_links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 70px;
+}
+
+.header_nav_links ul li a {
+    text-decoration: none;
+    color: #00b300;
+    font-weight: bold; 
+    font-size: 18px;   
+}
+
+.header_nav_links ul li a:hover {
+    color: azure;
+    text-decoration: underline;
+}
+
+
+.about_content {
+    /* display: flex; */
+    /* padding-top: 300px; */
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    background-color: #000000;
+    color: #ace;
+    text-align: center;
+    padding: 100px 20px 0 20px;
+}
+
+.about_content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #00b300;
+}
+
+.about_content p {
+    font-size: 25px;
+    line-height: 1.6;
+    max-width: 1500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about_main_skills {
+    padding-top: 100px;
+}
+
+.about_main_skills h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #00b300;
+}   
+
+.about_main_skills_cards {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 50px 20px;
+    text-align: center;
+    width: 150px;
+    box-shadow: 16px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+}
+
+
+.card h2 {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #333333;
+}
+
+.about_main_skills_cards :hover {
+    transform: translateY(-10px);
+    box-shadow: 0 40px 35px rgba(244, 239, 239, 0.3);
+    transition: all 0.3s ease;
+    background-color: ivory;
+}
+
+.my_achievements {
+    padding-top: 100px;
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.my_achievements h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #00b300;
+}
+
+.sert {
+    padding-top: 100px;
+    text-align: center;
+    color: inherit;
+    text-decoration: none;
+}
+
+.sert img{
+    padding: 30px;
+    width: 300px;
+    height: 232px;
+}
+
+
+.sert img:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+
+
+
+
+
