@@ -63,27 +63,108 @@ body {
     text-decoration: underline;
 }
 
+.messengers {
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.messengers h1 {
+    color: #00b300;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 .icons {
     display: flex;
     width: 900px;
-    gap: 15px;
-    margin-top: 100px;
+    gap: 50px;
+    /* margin-top: 200px; */
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin: 50px auto 0 auto;
 }
 
-.icons img {
+.img_card img {
     width: 200px;
-    height: auto;
-    background-color: #000;
+    height: 200px;
+    background-color: lavender;
     cursor: pointer;
-    padding: 50px;
+    border-radius: 15px;
 }
 
-.icons img :hover {
-    
+.img_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lavender;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px gainsboro;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
+
+.img_card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px gainsboro;
+}
+
+.img_card a {
+    text-decoration: wavy;
+    color: #000;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.for_partner_questionnaire {
+    text-align: center;
+    margin: 80px;
+    color: #00b300;
+    font-size: 24px;
+}
+
+.for_partner_questionnaire input {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: gainsboro;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.for_partner_questionnaire textarea {
+    width: 400px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: gainsboro;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+    resize: vertical;
+}
+
+.for_partner_questionnaire button {
+    width: 150px;
+    height: 40px;
+    background-color: #00b300;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.for_partner_questionnaire button:hover {
+    background-color: #009900;
+}
+
+
+
 
 
 
